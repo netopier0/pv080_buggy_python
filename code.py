@@ -1,8 +1,7 @@
-import yaml
-import subprocess
+import flask
 import hashlib
 import subprocess
-import flask
+import yaml
 
 
 def transcode_file(request, filename):
